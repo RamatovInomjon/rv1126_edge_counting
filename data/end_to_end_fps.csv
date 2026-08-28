@@ -1,0 +1,5 @@
+config,preprocess_ms,npu_infer_ms,postprocess_ms,total_ms,e2e_fps,note
+yolov8n_320,44.0,29.9,140.0,213.9,4.7,python/numpy decode (A7); C++ decode would cut postprocess
+yolov8n_448,46.5,54.1,249.8,350.4,2.9,python/numpy decode (A7); C++ decode would cut postprocess
+yolov8n_640,51.1,95.1,358.5,504.6,2.0,python/numpy decode (A7); C++ decode would cut postprocess
+yolov8s_320,43.6,48.8,132.7,225.2,4.4,python/numpy decode (A7); C++ decode would cut postprocess

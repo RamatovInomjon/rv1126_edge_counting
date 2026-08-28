@@ -1,0 +1,26 @@
+cff-version: 1.2.0
+message: "If you use this software or these results, please cite the paper below."
+title: "Resolution over Capacity: head and person counting on a Rockchip RV1126 edge NPU"
+authors:
+  - family-names: Rakhmanov
+    given-names: Khoshim
+    affiliation: "Oriental University, Samarkand, Uzbekistan"
+  - family-names: Khamdamov
+    given-names: Rustam
+    affiliation: "Digital Technologies and Artificial Intelligence Development Research Institute, Tashkent, Uzbekistan"
+  - family-names: Ramatov
+    given-names: Inomjon
+    affiliation: "Digital Technologies and Artificial Intelligence Development Research Institute, Tashkent, Uzbekistan"
+license: MIT
+preferred-citation:
+  type: conference-paper
+  title: "Resolution over Capacity: Selecting a YOLOv8 Detector for Head and Person Counting on a Rockchip RV1126 Edge NPU"
+  authors:
+    - family-names: Rakhmanov
+      given-names: Khoshim
+    - family-names: Khamdamov
+      given-names: Rustam
+    - family-names: Ramatov
+      given-names: Inomjon
+  collection-title: "Proceedings of ETSSIS"
+  year: 2026

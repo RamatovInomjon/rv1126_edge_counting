@@ -1,0 +1,5 @@
+# RV1126 NPU, INT8, rknn-toolkit-lite, 5 warmup + 50 timed iters
+BENCH yolov8n_320.rknn  in=320x320   43.5 ms  23.0 inf/s
+BENCH yolov8n_448.rknn  in=448x448   75.1 ms  13.3 inf/s
+BENCH yolov8n_640.rknn  in=640x640  128.4 ms   7.8 inf/s
+BENCH yolov8s_320.rknn  in=320x320   67.6 ms  14.8 inf/s

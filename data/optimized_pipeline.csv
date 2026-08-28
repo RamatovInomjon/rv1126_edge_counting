@@ -1,0 +1,13 @@
+config,variant,preprocess_ms,infer_ms,postprocess_ms,total_ms,e2e_fps
+yolov8n_320,python,44.0,29.9,140.0,213.9,4.7
+yolov8n_320,cpp,13.2,23.8,1.1,38.1,26.2
+yolov8n_320,cpp_fused,14.0,23.3,0.4,37.6,26.6
+yolov8n_448,python,46.5,54.1,249.8,350.4,2.9
+yolov8n_448,cpp,22.8,40.2,1.5,64.4,15.5
+yolov8n_448,cpp_fused,24.3,39.3,0.6,64.2,15.6
+yolov8n_640,python,51.1,95.1,358.5,504.6,2.0
+yolov8n_640,cpp,44.8,62.5,2.2,109.5,9.1
+yolov8n_640,cpp_fused,44.8,74.3,1.1,120.1,8.3
+yolov8s_320,python,43.6,48.8,132.7,225.2,4.4
+yolov8s_320,cpp,13.4,39.5,1.1,54.0,18.5
+yolov8s_320,cpp_fused,14.3,38.7,0.4,53.4,18.7

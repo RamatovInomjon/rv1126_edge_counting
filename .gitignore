@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# datasets (rebuild with scripts/make_subset.py)
+datasets/
+crowdhuman/
+*.zip
+*.tar
+*.tar.gz
+
+# intermediate exports
+onnx_rk/
+*.onnx
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+
+# paper PDF is added only after acceptance (avoids self-matching in similarity checks)
+paper/
+*.pdf

@@ -1,0 +1,16 @@
+# Host side: training, ONNX export, INT8 conversion, scoring, figures.
+# Versions are those the reported results were produced with.
+ultralytics==8.3.72
+torch==2.6.0
+onnx>=1.14
+numpy>=1.21
+opencv-python>=4.5
+matplotlib>=3.5
+
+# INT8 conversion for RKNPU v1 (RV1126). Not on PyPI - obtain the wheel from
+# Rockchip's rknn-toolkit 1.7.5 release. rknn-toolkit2 does NOT support RV1126.
+#   rknn-toolkit==1.7.5
+
+# Device side (RV1126, Python 3.7): rknn-toolkit-lite from the same release,
+# plus numpy and opencv. librknn_runtime 1.7.0 must be present on the device.
+#   rknn-toolkit-lite==1.7.5
